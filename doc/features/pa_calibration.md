@@ -59,7 +59,7 @@ Then, count the number of bands from the bottom of the print until the control l
 
 ![band count](./../images/pa_calibration_band_count.png)
 
-Then use the following formula to get the new PA value to use:
+Then, assuming **the first band at the bottom has the number 0**, use the following formula to get the new PA value to use:
 
 ```
 NEW_PA = START + (INCREMENT * band_number)
